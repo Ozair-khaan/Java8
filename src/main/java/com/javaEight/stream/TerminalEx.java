@@ -8,7 +8,7 @@ public class TerminalEx {
                 .limit(101)
                 .map(x -> x / 20)
                 .distinct()
-                .count();  //this is terminal operator for ex: count, max, min etc  
+                .count();  //this is terminal operator for ex: count, max, min etc
         System.out.println(collect);
     }
 }
